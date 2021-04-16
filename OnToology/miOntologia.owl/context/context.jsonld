@@ -1,0 +1,14 @@
+{
+  "@context" : {
+    "unaRelacion" : {
+      "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#unaRelacion",
+      "@type" : "@id"
+    },
+    "clase2" : {
+      "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#clase2"
+    },
+    "Clase1" : {
+      "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#Clase1"
+    }
+  }
+}

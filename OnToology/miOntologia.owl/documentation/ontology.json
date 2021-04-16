@@ -1,0 +1,28 @@
+[ {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#Clase1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#clase2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#maria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/mvegetti/OntoPrueba/miOntologia#clase2" ]
+}, {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#pepe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/mvegetti/OntoPrueba/miOntologia#Clase1" ],
+  "https://github.com/mvegetti/OntoPrueba/miOntologia#unaRelacion" : [ {
+    "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#maria"
+  } ]
+}, {
+  "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#unaRelacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#Clase1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/mvegetti/OntoPrueba/miOntologia#clase2"
+  } ]
+} ]
